@@ -30,5 +30,6 @@ nbproject
 /node_modules/
 
 # Project
+/archives/
 /local/
 /test/
