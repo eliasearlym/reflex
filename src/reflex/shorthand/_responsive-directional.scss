@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+// Built-in modules
+@use "sass:color";
+@use "sass:list";
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:selector";
+@use "sass:string";
+
+// Mixkit settings and modules
+@use "reflex/settings" as settings;
+@use "reflex/shorthand/helpers" as shorthand-helpers;
+@use "mixkit/convert/helpers/numbers" as *;
+
+@function _parse-direction($string) {
+    $position: 0;
+    $direction: null;
+
+    // Logic: Retrieve direction position
+    @if meta.type-of(string.slice($string, -2, -2)) == "string" {
+        $position: -2;
+    } @else if meta.type-of(string.slice($string, -2, -2)) == "number" {
+        $position: -3;
+    }
+
+    // Parse direction
+    $direction: string.slice($string, $position, $position);
+
+    @return $position;
+    
+}
+
+@debug _parse-direction(xsa10);
+
+@mixin res-dir($property, $suffix, $shorthand) {
+    // Vars
+    $shorthand: list.append((), $shorthand);
+    $bp-list: ();
+    $bp-map: ();
+
+    // Logic: Build shorthand syntax reference list and map
+    @each $key, $value in settings.$breakpoints {
+        $keys: map.keys($value);
+        $bp-class: map.get($value, "class");
+        $bp-value: map.get($value, "value");
+        $map: (#{$bp-class}: $bp-value);
+
+        // Logic: If class is empty
+        @if $bp-class == "" {
+            $bp-list: list.append($bp-list, "");
+            $bp-map: map.set($bp-map, "_", $bp-value);
+        }
+
+        // Logic: If class is not empty
+        @else {
+            $bp-list: list.append($bp-list, $bp-class);
+            $bp-map: map.set($bp-map, $bp-class, $bp-value);
+        }
+    }
+
+    // Logic: Parse single shorthand value
+    @if list.length($shorthand) == 1 {
+
+    }
+
+    // Logic: Parse multiple shorthand values
+    @else {
+        @each $value in $shorthand {
+            @if string.length($value) == 2 {}
+            @if string.length($value) == 3 {}
+        }
+    }
+}
+
+// @include gutter(a4 sa6 sa7)

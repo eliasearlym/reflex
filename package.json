@@ -1,0 +1,83 @@
+{
+    "name": "use-reflex",
+    "description": "Modern flexbox framework.",
+    "version": "1.0.0-alpha.1",
+    "author": "Elias Early-Manchester",
+    "contributors": [
+        "Elias Early-Manchester"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/eliasearlym/reflex#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eliasearlym/reflex.git"
+    },
+    "keywords": [
+        "css",
+        "scss",
+        "sass",
+        "flexbox",
+        "responsive",
+        "front-end",
+        "framework",
+        "web",
+        "reflex"
+    ],
+    "bugs": {
+        "url": "https://github.com/eliasearlym/reflex/issues"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^11.0.0",
+        "autoprefixer": "^10.2.5",
+        "clean-css-cli": "^4.3.0",
+        "husky": "^5.0.9",
+        "lint-staged": "^10.5.4",
+        "npm-run-all": "^4.1.5",
+        "postcss-cli": "^8.3.1",
+        "prettier": "^2.2.1",
+        "remark": "^13.0.0",
+        "remark-cli": "^9.0.0",
+        "remark-preset-lint-recommended": "^5.0.0",
+        "remark-preset-prettier": "^0.4.0",
+        "sass": "^1.32.6",
+        "sass-mixkit": "1.0.7-alpha.1",
+        "stylelint": "^13.9.0",
+        "stylelint-config-reflex": "1.4.1"
+    },
+    "peerDependencies": {
+        "postcss": "^8.0.0"
+    },
+    "scripts": {
+        "start": "npm run-script watch",
+        "watch": "sass --style expanded --no-error-css --no-source-map --watch test/ src/:test/ --load-path=src --load-path=node_modules/sass-mixkit/src",
+        "sass-compress": "sass --style compressed --no-error-css --no-source-map --watch src/reflex.scss:dist/reflex.min.css --load-path=src --load-path=node_modules/sass-mixkit/src",
+        "sass-expand": "sass --style expanded --no-error-css --no-source-map --watch src/reflex.scss:dist/reflex.css --load-path=src --load-path=node_modules/sass-mixkit/src",
+        "prefix": "postcss dist/*.css --use autoprefixer -d dist/"
+    },
+    "lint-staged": {
+        "*.scss": [
+            "npm run lint:fix",
+            "git add"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": [
+                "lint-staged",
+                "echo \"Yes\""
+            ],
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "browserslist": [
+        "> 0.1%",
+        "last 2 versions"
+    ],
+    "files": [
+        "css",
+        "scss",
+        "LICENSE",
+        "README.md"
+    ]
+}

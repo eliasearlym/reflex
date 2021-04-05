@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+// Built-in modules
+@use "sass:color";
+@use "sass:list";
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:selector";
+@use "sass:string";
+
+/// Enable autoprefixer.
+///
+/// @type boolean
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$auto-prefixer: false !default;
+
+/// Nouns
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$nouns: (
+    "grid": (
+        "gap": "gap",
+    ),
+) !default;
+
+/// Verbs
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$verbs: (
+    "spacer": (
+        "boost": "boost",
+    ),
+) !default;
+
+/// Infixes
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$infixes: (
+    "property": string.unquote("-"),
+    "grid": string.unquote("-"),
+    "grid-gap": string.unquote("-"),
+) !default;
+
+/// Breakpoint settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$breakpoints: (
+    "0": (
+        "class": "",
+        "value": 0
+    ),
+    "1": (
+        "class": "xs",
+        "value": 480
+    ),
+    "2": (
+        "class": "s",
+        "value": 576
+    ),
+    "3": (
+        "class": "m",
+        "value": 768
+    ),
+    "4": (
+        "class": "l",
+        "value": 960
+    ),
+    "5": (
+        "class": "xl",
+        "value": 1056
+    ),
+) !default;
+
+/// Column settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$columns: (
+    "1": (
+        "class": 1,
+        "width": 8.333333%
+    ),
+    "2": (
+        "class": 2,
+        "width": 16.666667%
+    ),
+    "x3": (
+        "class": "x3",
+        "width": 20%
+    ),
+    "3": (
+        "class": 3,
+        "width": 25%
+    ),
+    "4": (
+        "class": 4,
+        "width": 33.333333%
+    ),
+    "5": (
+        "class": 5,
+        "width": 41.666667%
+    ),
+    "6": (
+        "class": 6,
+        "width": 50%
+    ),
+    "7": (
+        "class": 7,
+        "width": 58.333333%
+    ),
+    "8": (
+        "class": 8,
+        "width": 66.666667%
+    ),
+    "9": (
+        "class": 9,
+        "width": 75%
+    ),
+    "10": (
+        "class": 10,
+        "width": 83.333333%
+    ),
+    "x11": (
+        "class": "x11",
+        "width": 80%
+    ),
+    "11": (
+        "class": 11,
+        "width": 91.666667%
+    ),
+    "12": (
+        "class": 12,
+        "width": 100%
+    ),
+) !default;
+
+/// Gap settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$grid-gaps: (
+    "1": (
+        "class":  1,
+        "value":  3,
+        "metric": "px"
+    ),
+    "2": (
+        "class":  2,
+        "value":  6,
+        "metric": "px"
+    ),
+    "3": (
+        "class":  3,
+        "value":  9,
+        "metric": "px"
+    ),
+    "4": (
+        "class":  4,
+        "value":  12,
+        "metric": "px"
+    ),
+    "5": (
+        "class":  5,
+        "value":  15,
+        "metric": "px"
+    ),
+    "6": (
+        "class":  6,
+        "value":  18,
+        "metric": "px"
+    ),
+    "7": (
+        "class":  7,
+        "value":  24,
+        "metric": "px"
+    ),
+    "8": (
+        "class":  8,
+        "value":  30,
+        "metric": "px"
+    ),
+) !default;
+
+/// Gutter settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$default-gutters: (
+    "0": (
+        "class":  0,
+        "value":  0,
+        "metric": "px"
+    ),
+    "1": (
+        "class":  1,
+        "value":  6,
+        "metric": "px"
+    ),
+    "2": (
+        "class":  2,
+        "value":  12,
+        "metric": "px"
+    ),
+    "3": (
+        "class":  3,
+        "value":  18,
+        "metric": "px"
+    ),
+    "4": (
+        "class":  4,
+        "value":  24,
+        "metric": "px"
+    ),
+    "5": (
+        "class":  5,
+        "value":  30,
+        "metric": "px"
+    ),
+    "6": (
+        "class":  6,
+        "value":  36,
+        "metric": "px"
+    ),
+    "7": (
+        "class":  7,
+        "value":  48,
+        "metric": "px"
+    ),
+    "8": (
+        "class":  8,
+        "value":  60,
+        "metric": "px"
+    ),
+) !default;
+
+/// Spacer settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$default-spacers: (
+    "0": (
+        "class":  0,
+        "value":  0,
+        "metric": "px"
+    ),
+    "1": (
+        "class":  1,
+        "value":  60,
+        "metric": "px"
+    ),
+    "2": (
+        "class":  2,
+        "value":  84,
+        "metric": "px"
+    ),
+    "3": (
+        "class":  3,
+        "value":  120,
+        "metric": "px"
+    ),
+    "4": (
+        "class":  4,
+        "value":  168,
+        "metric": "px"
+    ),
+    "5": (
+        "class":  5,
+        "value":  228,
+        "metric": "px"
+    ),
+    "6": (
+        "class":  6,
+        "value":  300,
+        "metric": "px"
+    ),
+    "7": (
+        "class":  7,
+        "value":  384,
+        "metric": "px"
+    ),
+    "8": (
+        "class":  8,
+        "value":  480,
+        "metric": "px"
+    ),
+    "9": (
+        "class":  9,
+        "value":  540,
+        "metric": "px"
+    ),
+    "10": (
+        "class":  10,
+        "value":  600,
+        "metric": "px"
+    ),
+    "11": (
+        "class":  11,
+        "value":  660,
+        "metric": "px"
+    ),
+    "12": (
+        "class":  12,
+        "value":  720,
+        "metric": "px"
+    ),
+) !default;
+
+/// Spacer booster settings.
+///
+/// @type map
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$default-spacer-boosters: (
+    "1": (
+        "class":  1,
+        "value":  6,
+        "metric": "vw"
+    ),
+    "2": (
+        "class":  1,
+        "value":  9,
+        "metric": "vw"
+    ),
+    "3": (
+        "class":  1,
+        "value":  12,
+        "metric": "vw"
+    ),
+) !default;

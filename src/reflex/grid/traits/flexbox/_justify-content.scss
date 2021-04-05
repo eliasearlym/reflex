@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+// Built-in modules
+@use "sass:color";
+@use "sass:list";
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:selector";
+@use "sass:string";
+
+// Reflex settings and modules
+@use "reflex/settings" as settings;
+
+/// Configure the `justify-content` [data-grid] trait.
+///
+/// @name flex-wrap
+///
+/// @group reflex/grid/traits/flexbox
+///
+/// @output [data-grid] `justify-content` trait rules
+///
+/// @access public
+///
+/// @since 1.0.0
+
+@mixin jc-trait {
+    [data-grid~="area"][data-grid~="jc-sb"] {
+        justify-content: space-between;
+    }
+
+    [data-grid~="area"][data-grid~="jc-c"] {
+        justify-content: center;
+    }
+
+    [data-grid~="area"][data-grid~="jc-fe"] {
+        justify-content: flex-end;
+    }
+}

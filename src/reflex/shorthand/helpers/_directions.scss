@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/// Shorthand direction syntax.
+///
+/// @group mixkit/shorthand/helpers
+///
+/// @type string
+///
+/// @see {function (mixkit/shorthand)} define
+///
+/// @access public
+///
+/// @since 1.0.0
+
+$directions: (
+    "t": "top",
+    "r": "right",
+    "b": "bottom",
+    "l": "left",
+    "v": "vertical",
+    "h": "horizontal",
+    "x": "x-axis",
+    "y": "y-axis",
+    "a": "all",
+);
