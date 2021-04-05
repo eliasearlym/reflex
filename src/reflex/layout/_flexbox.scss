@@ -382,70 +382,70 @@
 ///
 /// @since 1.0.0
 
-@mixin f-r-c-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
-@mixin f-r-c-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
-@mixin f-r-c-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
-@mixin f-r-c-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
-@mixin f-r-c-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
-@mixin f-r-c-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
-@mixin f-c-c-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
-@mixin f-c-c-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
-@mixin f-c-c-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
-@mixin f-c-c-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
-@mixin f-c-c-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
-@mixin f-c-c-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
+@mixin f-r-c-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
+@mixin f-r-c-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
+@mixin f-r-c-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
+@mixin f-r-c-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
+@mixin f-r-c-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
+@mixin f-r-c-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
+@mixin f-c-c-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
+@mixin f-c-c-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
+@mixin f-c-c-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
+@mixin f-c-c-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
+@mixin f-c-c-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
+@mixin f-c-c-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
 
-@mixin f-r-fs-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
-@mixin f-r-fs-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
-@mixin f-r-fs-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
-@mixin f-r-fs-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
-@mixin f-r-fs-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
-@mixin f-r-fs-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
-@mixin f-c-fs-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
-@mixin f-c-fs-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
-@mixin f-c-fs-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
-@mixin f-c-fs-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
-@mixin f-c-fs-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
-@mixin f-c-fs-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
+@mixin f-r-fs-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
+@mixin f-r-fs-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
+@mixin f-r-fs-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
+@mixin f-r-fs-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
+@mixin f-r-fs-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
+@mixin f-r-fs-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
+@mixin f-c-fs-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
+@mixin f-c-fs-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
+@mixin f-c-fs-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
+@mixin f-c-fs-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
+@mixin f-c-fs-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
+@mixin f-c-fs-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
 
-@mixin f-r-fe-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
-@mixin f-r-fe-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
-@mixin f-r-fe-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
-@mixin f-r-fe-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
-@mixin f-r-fe-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
-@mixin f-r-fe-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
-@mixin f-c-fe-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
-@mixin f-c-fe-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
-@mixin f-c-fe-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
-@mixin f-c-fe-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
-@mixin f-c-fe-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
-@mixin f-c-fe-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
+@mixin f-r-fe-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
+@mixin f-r-fe-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
+@mixin f-r-fe-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
+@mixin f-r-fe-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
+@mixin f-r-fe-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
+@mixin f-r-fe-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
+@mixin f-c-fe-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
+@mixin f-c-fe-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
+@mixin f-c-fe-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
+@mixin f-c-fe-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
+@mixin f-c-fe-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
+@mixin f-c-fe-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
 
-@mixin f-r-sb-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
-@mixin f-r-sb-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
-@mixin f-r-sb-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
-@mixin f-r-sb-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
-@mixin f-r-sb-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
-@mixin f-r-sb-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
-@mixin f-c-sb-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
-@mixin f-c-sb-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
-@mixin f-c-sb-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
-@mixin f-c-sb-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
-@mixin f-c-sb-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
-@mixin f-c-sb-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
+@mixin f-r-sb-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
+@mixin f-r-sb-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
+@mixin f-r-sb-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
+@mixin f-r-sb-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
+@mixin f-r-sb-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
+@mixin f-r-sb-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
+@mixin f-c-sb-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
+@mixin f-c-sb-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
+@mixin f-c-sb-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
+@mixin f-c-sb-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
+@mixin f-c-sb-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
+@mixin f-c-sb-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
 
-@mixin f-r-sa-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
-@mixin f-r-sa-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
-@mixin f-r-sa-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
-@mixin f-r-sa-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
-@mixin f-r-sa-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
-@mixin f-r-sa-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
-@mixin f-c-sa-c($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
-@mixin f-c-sa-fs($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
-@mixin f-c-sa-fe($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
-@mixin f-c-sa-sb($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
-@mixin f-c-sa-sa($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
-@mixin f-c-sa-s($abs: false) { @include _pos($abs); @include fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
+@mixin f-r-sa-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
+@mixin f-r-sa-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
+@mixin f-r-sa-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
+@mixin f-r-sa-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
+@mixin f-r-sa-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
+@mixin f-r-sa-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
+@mixin f-c-sa-c($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
+@mixin f-c-sa-fs($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
+@mixin f-c-sa-fe($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
+@mixin f-c-sa-sb($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
+@mixin f-c-sa-sa($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
+@mixin f-c-sa-s($abs: false) { @include _pos($abs); @include _fluid; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
 
 /// Shorthand mixins for applying common sets of flexbox properties.
 ///
@@ -462,70 +462,70 @@
 ///
 /// @since 1.0.0
 
-@mixin fr-r-c-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
-@mixin fr-r-c-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
-@mixin fr-r-c-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
-@mixin fr-r-c-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
-@mixin fr-r-c-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
-@mixin fr-r-c-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
-@mixin fr-c-c-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
-@mixin fr-c-c-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
-@mixin fr-c-c-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
-@mixin fr-c-c-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
-@mixin fr-c-c-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
-@mixin fr-c-c-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
+@mixin fr-r-c-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
+@mixin fr-r-c-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
+@mixin fr-r-c-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
+@mixin fr-r-c-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
+@mixin fr-r-c-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
+@mixin fr-r-c-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
+@mixin fr-c-c-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
+@mixin fr-c-c-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
+@mixin fr-c-c-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
+@mixin fr-c-c-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
+@mixin fr-c-c-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
+@mixin fr-c-c-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
 
-@mixin fr-r-fs-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
-@mixin fr-r-fs-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
-@mixin fr-r-fs-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
-@mixin fr-r-fs-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
-@mixin fr-r-fs-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
-@mixin fr-r-fs-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
-@mixin fr-c-fs-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
-@mixin fr-c-fs-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
-@mixin fr-c-fs-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
-@mixin fr-c-fs-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
-@mixin fr-c-fs-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
-@mixin fr-c-fs-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
+@mixin fr-r-fs-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
+@mixin fr-r-fs-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
+@mixin fr-r-fs-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
+@mixin fr-r-fs-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
+@mixin fr-r-fs-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
+@mixin fr-r-fs-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
+@mixin fr-c-fs-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
+@mixin fr-c-fs-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
+@mixin fr-c-fs-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
+@mixin fr-c-fs-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
+@mixin fr-c-fs-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
+@mixin fr-c-fs-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
 
-@mixin fr-r-fe-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
-@mixin fr-r-fe-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
-@mixin fr-r-fe-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
-@mixin fr-r-fe-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
-@mixin fr-r-fe-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
-@mixin fr-r-fe-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
-@mixin fr-c-fe-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
-@mixin fr-c-fe-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
-@mixin fr-c-fe-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
-@mixin fr-c-fe-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
-@mixin fr-c-fe-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
-@mixin fr-c-fe-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
+@mixin fr-r-fe-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
+@mixin fr-r-fe-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
+@mixin fr-r-fe-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
+@mixin fr-r-fe-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
+@mixin fr-r-fe-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
+@mixin fr-r-fe-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
+@mixin fr-c-fe-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
+@mixin fr-c-fe-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
+@mixin fr-c-fe-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
+@mixin fr-c-fe-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
+@mixin fr-c-fe-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
+@mixin fr-c-fe-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
 
-@mixin fr-r-sb-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
-@mixin fr-r-sb-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
-@mixin fr-r-sb-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
-@mixin fr-r-sb-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
-@mixin fr-r-sb-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
-@mixin fr-r-sb-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
-@mixin fr-c-sb-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
-@mixin fr-c-sb-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
-@mixin fr-c-sb-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
-@mixin fr-c-sb-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
-@mixin fr-c-sb-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
-@mixin fr-c-sb-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
+@mixin fr-r-sb-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
+@mixin fr-r-sb-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
+@mixin fr-r-sb-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
+@mixin fr-r-sb-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
+@mixin fr-r-sb-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
+@mixin fr-r-sb-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
+@mixin fr-c-sb-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
+@mixin fr-c-sb-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
+@mixin fr-c-sb-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
+@mixin fr-c-sb-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
+@mixin fr-c-sb-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
+@mixin fr-c-sb-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
 
-@mixin fr-r-sa-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
-@mixin fr-r-sa-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
-@mixin fr-r-sa-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
-@mixin fr-r-sa-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
-@mixin fr-r-sa-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
-@mixin fr-r-sa-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
-@mixin fr-c-sa-c($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
-@mixin fr-c-sa-fs($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
-@mixin fr-c-sa-fe($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
-@mixin fr-c-sa-sb($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
-@mixin fr-c-sa-sa($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
-@mixin fr-c-sa-s($abs: false) { @include _pos($abs); @include fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
+@mixin fr-r-sa-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
+@mixin fr-r-sa-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
+@mixin fr-r-sa-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
+@mixin fr-r-sa-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
+@mixin fr-r-sa-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
+@mixin fr-r-sa-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
+@mixin fr-c-sa-c($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
+@mixin fr-c-sa-fs($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
+@mixin fr-c-sa-fe($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
+@mixin fr-c-sa-sb($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
+@mixin fr-c-sa-sa($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
+@mixin fr-c-sa-s($abs: false) { @include _pos($abs); @include _fluid-right; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
 
 /// Shorthand mixins for applying common sets of flexbox properties.
 ///
@@ -542,70 +542,70 @@
 ///
 /// @since 1.0.0
 
-@mixin fl-r-c-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
-@mixin fl-r-c-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
-@mixin fl-r-c-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
-@mixin fl-r-c-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
-@mixin fl-r-c-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
-@mixin fl-r-c-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
-@mixin fl-c-c-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
-@mixin fl-c-c-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
-@mixin fl-c-c-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
-@mixin fl-c-c-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
-@mixin fl-c-c-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
-@mixin fl-c-c-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
+@mixin fl-r-c-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
+@mixin fl-r-c-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
+@mixin fl-r-c-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
+@mixin fl-r-c-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
+@mixin fl-r-c-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
+@mixin fl-r-c-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
+@mixin fl-c-c-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
+@mixin fl-c-c-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
+@mixin fl-c-c-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
+@mixin fl-c-c-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
+@mixin fl-c-c-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
+@mixin fl-c-c-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
 
-@mixin fl-r-fs-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
-@mixin fl-r-fs-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
-@mixin fl-r-fs-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
-@mixin fl-r-fs-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
-@mixin fl-r-fs-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
-@mixin fl-r-fs-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
-@mixin fl-c-fs-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
-@mixin fl-c-fs-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
-@mixin fl-c-fs-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
-@mixin fl-c-fs-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
-@mixin fl-c-fs-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
-@mixin fl-c-fs-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
+@mixin fl-r-fs-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
+@mixin fl-r-fs-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
+@mixin fl-r-fs-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
+@mixin fl-r-fs-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
+@mixin fl-r-fs-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
+@mixin fl-r-fs-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
+@mixin fl-c-fs-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
+@mixin fl-c-fs-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
+@mixin fl-c-fs-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
+@mixin fl-c-fs-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
+@mixin fl-c-fs-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
+@mixin fl-c-fs-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
 
-@mixin fl-r-fe-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
-@mixin fl-r-fe-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
-@mixin fl-r-fe-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
-@mixin fl-r-fe-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
-@mixin fl-r-fe-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
-@mixin fl-r-fe-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
-@mixin fl-c-fe-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
-@mixin fl-c-fe-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
-@mixin fl-c-fe-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
-@mixin fl-c-fe-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
-@mixin fl-c-fe-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
-@mixin fl-c-fe-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
+@mixin fl-r-fe-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
+@mixin fl-r-fe-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
+@mixin fl-r-fe-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
+@mixin fl-r-fe-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
+@mixin fl-r-fe-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
+@mixin fl-r-fe-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
+@mixin fl-c-fe-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
+@mixin fl-c-fe-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
+@mixin fl-c-fe-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
+@mixin fl-c-fe-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
+@mixin fl-c-fe-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
+@mixin fl-c-fe-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
 
-@mixin fl-r-sb-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
-@mixin fl-r-sb-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
-@mixin fl-r-sb-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
-@mixin fl-r-sb-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
-@mixin fl-r-sb-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
-@mixin fl-r-sb-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
-@mixin fl-c-sb-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
-@mixin fl-c-sb-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
-@mixin fl-c-sb-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
-@mixin fl-c-sb-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
-@mixin fl-c-sb-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
-@mixin fl-c-sb-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
+@mixin fl-r-sb-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
+@mixin fl-r-sb-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
+@mixin fl-r-sb-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
+@mixin fl-r-sb-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
+@mixin fl-r-sb-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
+@mixin fl-r-sb-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
+@mixin fl-c-sb-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
+@mixin fl-c-sb-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
+@mixin fl-c-sb-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
+@mixin fl-c-sb-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
+@mixin fl-c-sb-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
+@mixin fl-c-sb-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
 
-@mixin fl-r-sa-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
-@mixin fl-r-sa-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
-@mixin fl-r-sa-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
-@mixin fl-r-sa-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
-@mixin fl-r-sa-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
-@mixin fl-r-sa-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
-@mixin fl-c-sa-c($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
-@mixin fl-c-sa-fs($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
-@mixin fl-c-sa-fe($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
-@mixin fl-c-sa-sb($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
-@mixin fl-c-sa-sa($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
-@mixin fl-c-sa-s($abs: false) { @include _pos($abs); @include fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
+@mixin fl-r-sa-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
+@mixin fl-r-sa-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
+@mixin fl-r-sa-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
+@mixin fl-r-sa-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
+@mixin fl-r-sa-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
+@mixin fl-r-sa-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
+@mixin fl-c-sa-c($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
+@mixin fl-c-sa-fs($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
+@mixin fl-c-sa-fe($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
+@mixin fl-c-sa-sb($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
+@mixin fl-c-sa-sa($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
+@mixin fl-c-sa-s($abs: false) { @include _pos($abs); @include _fluid-left; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
 
 /// Shorthand mixins for applying common sets of flexbox properties.
 ///
@@ -622,70 +622,70 @@
 ///
 /// @since 1.0.0
 
-@mixin f_r-c-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
-@mixin f_r-c-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
-@mixin f_r-c-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
-@mixin f_r-c-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
-@mixin f_r-c-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
-@mixin f_r-c-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
-@mixin f_c-c-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
-@mixin f_c-c-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
-@mixin f_c-c-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
-@mixin f_c-c-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
-@mixin f_c-c-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
-@mixin f_c-c-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
+@mixin f_r-c-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-c; }
+@mixin f_r-c-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fs; }
+@mixin f_r-c-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-fe; }
+@mixin f_r-c-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sb; }
+@mixin f_r-c-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-sa; }
+@mixin f_r-c-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-c; @include _ai-s; }
+@mixin f_c-c-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-c; }
+@mixin f_c-c-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fs; }
+@mixin f_c-c-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-fe; }
+@mixin f_c-c-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sb; }
+@mixin f_c-c-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-sa; }
+@mixin f_c-c-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-c; @include _ai-s; }
 
-@mixin f_r-fs-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
-@mixin f_r-fs-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
-@mixin f_r-fs-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
-@mixin f_r-fs-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
-@mixin f_r-fs-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
-@mixin f_r-fs-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
-@mixin f_c-fs-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
-@mixin f_c-fs-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
-@mixin f_c-fs-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
-@mixin f_c-fs-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
-@mixin f_c-fs-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
-@mixin f_c-fs-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
+@mixin f_r-fs-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-c; }
+@mixin f_r-fs-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fs; }
+@mixin f_r-fs-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-fe; }
+@mixin f_r-fs-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sb; }
+@mixin f_r-fs-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-sa; }
+@mixin f_r-fs-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fs; @include _ai-s; }
+@mixin f_c-fs-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-c; }
+@mixin f_c-fs-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fs; }
+@mixin f_c-fs-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-fe; }
+@mixin f_c-fs-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sb; }
+@mixin f_c-fs-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-sa; }
+@mixin f_c-fs-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fs; @include _ai-s; }
 
-@mixin f_r-fe-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
-@mixin f_r-fe-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
-@mixin f_r-fe-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
-@mixin f_r-fe-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
-@mixin f_r-fe-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
-@mixin f_r-fe-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
-@mixin f_c-fe-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
-@mixin f_c-fe-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
-@mixin f_c-fe-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
-@mixin f_c-fe-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
-@mixin f_c-fe-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
-@mixin f_c-fe-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
+@mixin f_r-fe-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-c; }
+@mixin f_r-fe-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fs; }
+@mixin f_r-fe-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-fe; }
+@mixin f_r-fe-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sb; }
+@mixin f_r-fe-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-sa; }
+@mixin f_r-fe-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-fe; @include _ai-s; }
+@mixin f_c-fe-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-c; }
+@mixin f_c-fe-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fs; }
+@mixin f_c-fe-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-fe; }
+@mixin f_c-fe-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sb; }
+@mixin f_c-fe-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-sa; }
+@mixin f_c-fe-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-fe; @include _ai-s; }
 
-@mixin f_r-sb-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
-@mixin f_r-sb-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
-@mixin f_r-sb-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
-@mixin f_r-sb-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
-@mixin f_r-sb-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
-@mixin f_r-sb-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
-@mixin f_c-sb-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
-@mixin f_c-sb-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
-@mixin f_c-sb-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
-@mixin f_c-sb-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
-@mixin f_c-sb-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
-@mixin f_c-sb-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
+@mixin f_r-sb-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-c; }
+@mixin f_r-sb-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fs; }
+@mixin f_r-sb-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-fe; }
+@mixin f_r-sb-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sb; }
+@mixin f_r-sb-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-sa; }
+@mixin f_r-sb-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sb; @include _ai-s; }
+@mixin f_c-sb-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-c; }
+@mixin f_c-sb-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fs; }
+@mixin f_c-sb-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-fe; }
+@mixin f_c-sb-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sb; }
+@mixin f_c-sb-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-sa; }
+@mixin f_c-sb-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sb; @include _ai-s; }
 
-@mixin f_r-sa-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
-@mixin f_r-sa-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
-@mixin f_r-sa-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
-@mixin f_r-sa-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
-@mixin f_r-sa-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
-@mixin f_r-sa-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
-@mixin f_c-sa-c($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
-@mixin f_c-sa-fs($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
-@mixin f_c-sa-fe($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
-@mixin f_c-sa-sb($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
-@mixin f_c-sa-sa($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
-@mixin f_c-sa-s($abs: false) { @include _pos($abs); @include fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
+@mixin f_r-sa-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-c; }
+@mixin f_r-sa-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fs; }
+@mixin f_r-sa-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-fe; }
+@mixin f_r-sa-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sb; }
+@mixin f_r-sa-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-sa; }
+@mixin f_r-sa-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-r; @include _fw-w; @include _jc-sa; @include _ai-s; }
+@mixin f_c-sa-c($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-c; }
+@mixin f_c-sa-fs($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fs; }
+@mixin f_c-sa-fe($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-fe; }
+@mixin f_c-sa-sb($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sb; }
+@mixin f_c-sa-sa($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-sa; }
+@mixin f_c-sa-s($abs: false) { @include _pos($abs); @include _fluid-no-margin; @include _d-f; @include _fd-c; @include _jc-sa; @include _ai-s; }
 
 /// Shorthand mixins for applying common sets of flexbox properties.
 ///
