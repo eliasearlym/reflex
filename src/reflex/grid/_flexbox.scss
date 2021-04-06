@@ -63,7 +63,7 @@
     // Logic: Generate responsive grid rules
     @each $key, $data in settings.$breakpoints {
         $bp-class: map.get(settings.$breakpoints, $key, "class");
-        $bp-value: #{map.get(settings.$breakpoints, $key, "width")}px;
+        $bp-value: #{map.get(settings.$breakpoints, $key, "value")}px;
 
         @media (min-width: $bp-value) {
             @each $key, $data in $columns {
