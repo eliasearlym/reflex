@@ -46,7 +46,7 @@
         justify-content: flex-start;
     }
 
-    // Logic: Apply traits
+    // Logic: `grid-gap` trait rules
     @each $key, $data in $gaps {
         $class: map.get(settings.$grid-gaps, $key, "class");
         $value: map.get(settings.$grid-gaps, $key, "value");
@@ -69,12 +69,18 @@
             @each $key, $data in $columns {
                 $col-class: map.get($columns, $key, "class");
                 $col-value: map.get($columns, $key, "width");
+                $grid-item: #{$bp-class}#{$grid-infix}#{$col-class};
+
+                @if $bp-class == "" {
+                    $grid-item: #{$col-class};
+                }
 
                 [data-grid~="#{$bp-class}#{$grid-infix}#{$col-class}"] {
                     max-width: $col-value;
                     flex: 0 0 $col-value;
                 }
 
+                // Logic: `grid-gap` trait rules
                 @each $key, $data in $gaps {
                     $class: map.get(settings.$grid-gaps, $key, "class");
                     $value: map.get(settings.$grid-gaps, $key, "value");
