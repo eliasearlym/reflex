@@ -53,10 +53,11 @@
         $value-2x: $value * 2;
         $metric: map.get(settings.$grid-gaps, $key, "metric");
 
-        [data-grid~="area"][data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"] {
+        [data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"][data-grid~="area"] {
             width: calc(100% + #{$value-2x}#{$metric});
             max-width: calc(100% + #{$value-2x}#{$metric});
-            margin: string.unquote("-#{$value-2x}#{$metric}") 0;
+            // margin: string.unquote("-#{$value-2x}#{$metric}") 0;
+            margin: string.unquote("-#{$value}#{$metric}") 0;
         }
     }
 
@@ -87,7 +88,7 @@
                     $value-2x: $value * 2;
                     $metric: map.get(settings.$grid-gaps, $key, "metric");
 
-                    [data-grid~="area"][data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"] [data-grid~="#{$bp-class}#{$grid-infix}#{$col-class}"] {
+                    [data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"][data-grid~="area"] [data-grid~="#{$bp-class}#{$grid-infix}#{$col-class}"] {
                         max-width: calc(#{$col-value} - #{$value-2x}#{$metric});
                         flex: 0 0 calc(#{$col-value} - #{$value-2x}#{$metric});
                         margin: #{$value}#{$metric};
