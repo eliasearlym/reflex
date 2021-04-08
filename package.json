@@ -1,7 +1,7 @@
 {
     "name": "use-reflex",
     "description": "Modern flexbox framework.",
-    "version": "1.1.0-alpha.1",
+    "version": "1.2.0-alpha.1",
     "author": "Elias Early-Manchester",
     "contributors": [
         "Elias Early-Manchester"
@@ -50,7 +50,7 @@
     },
     "scripts": {
         "start": "npm run-script watch",
-        "watch": "sass --style expanded --no-error-css --no-source-map --watch test/ src/:test/ --load-path=src --load-path=node_modules/sass-mixkit/src",
+        "watch": "sass --style expanded --no-error-css --no-source-map --watch test/ src/:test/ --load-path=node_modules/sass-mixkit/src --load-path=src",
         "sass-compress": "sass --style compressed --no-error-css --no-source-map --watch src/reflex.scss:dist/reflex.min.css --load-path=src --load-path=node_modules/sass-mixkit/src",
         "sass-expand": "sass --style expanded --no-error-css --no-source-map --watch src/reflex.scss:dist/reflex.css --load-path=src --load-path=node_modules/sass-mixkit/src",
         "prefix": "postcss dist/*.css --use autoprefixer -d dist/"
