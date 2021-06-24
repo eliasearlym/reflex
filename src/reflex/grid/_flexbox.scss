@@ -76,7 +76,7 @@
                     $grid-item: #{$col-class};
                 }
 
-                [data-grid~="#{$bp-class}#{$grid-infix}#{$col-class}"] {
+                [data-grid~="#{$grid-item}"] {
                     max-width: $col-value;
                     flex: 0 0 $col-value;
                 }
@@ -88,7 +88,7 @@
                     $value-2x: $value * 2;
                     $metric: map.get(settings.$grid-gaps, $key, "metric");
 
-                    [data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"][data-grid~="area"] [data-grid~="#{$bp-class}#{$grid-infix}#{$col-class}"] {
+                    [data-grid~="#{$gap-noun}#{$gap-infix}#{$class}"][data-grid~="area"] [data-grid~="#{$grid-item}"] {
                         max-width: calc(#{$col-value} - #{$value-2x}#{$metric});
                         flex: 0 0 calc(#{$col-value} - #{$value-2x}#{$metric});
                         margin: #{$value}#{$metric};
